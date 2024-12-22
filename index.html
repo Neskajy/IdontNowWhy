@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Квиз зачет к ОС</title>
+    <link rel="stylesheet" href="public/index.css">
+</head>
+<body>
+    <div class="card">
+        <div class="introducing">
+            <h2>Ответь на все 60 вопросов и будешь молодцом</h2>
+            <div class="containerForm">
+                <label for="">В рандомном порядке?</label><input type="checkbox" id="randomSort">
+            </div>
+                
+            <button id="start">Начать!</button>
+        </div>
+        <div class="ekz">
+            <form class="question">
+                <span class="numOfQuestion"></span>
+                <div class="questionText"></div>
+                <button method="POST" class="showAnswer">Показать ответ</button>
+                <div class="answer"></div>
+            </form>
+        
+            <button class="next">Перейти к следующему вопросу</button>
+        </div>
+    </div>
+    <script src="public/index.js"></script>
+</body>
+</html>
